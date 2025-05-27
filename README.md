@@ -2,11 +2,11 @@
 
 Proyek ini melakukan analisis sentimen terhadap ulasan pengguna aplikasi **Info BMKG** yang diambil dari Google Play Store. Sentimen dikategorikan menjadi tiga kelas: `positif`, `netral`, dan `negatif`.
 
-### 🚀 Instalasi dan Setup Proyek
-```
+## 🚀 Instalasi dan Setup Proyek
 
-```
+
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/08samudra/analisis_sentimen_app_info_BMKG.git
 cd analisis_sentimen_app_info_BMKG
