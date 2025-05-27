@@ -1,7 +1,6 @@
 # Analisis Sentimen Aplikasi Info BMKG
 
 Proyek ini melakukan analisis sentimen terhadap ulasan pengguna aplikasi **Info BMKG** yang diambil dari Google Play Store. Sentimen dikategorikan menjadi tiga kelas: `positif`, `netral`, dan `negatif`.
-
 ````
 
 ## 🚀 Instalasi dan Setup Proyek
