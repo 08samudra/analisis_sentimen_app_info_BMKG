@@ -45,6 +45,16 @@ Buka `model_training.ipynb` di VS Code atau Jupyter Notebook, kemudian jalankan 
 * Eksplorasi dan visualisasi data
 * Pelatihan model dan visualisasi (Logistic Regression, SVM, dan Random Forest)
 
+## 📈 Hasil Visualisasi
+
+Berikut adalah beberapa hasil visualisasi data yang dihasilkan selama proses analisis sentimen.
+
+![Distribusi Skor Ulasan](assets/images/hasil_distibusi_skor_ulasan.png)
+
+![Tabel Skor Ulasan](assets/images/hasil_tabel_distibusi_skor_ulasan.png)
+
+![Persentase Sentimen](assets/images/persentase_sentimen.png)
+
 ## 📊 Hasil Evaluasi Model
 
 Model pelatihan dilakukan dengan pembagian data `train:test = 80:20` dan `70:30`. Hasil evaluasi tiga model terbaik (menampilkan akurasi pada data training dan testing sebagai bukti evaluasi model):
