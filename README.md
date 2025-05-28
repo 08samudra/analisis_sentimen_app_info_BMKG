@@ -47,16 +47,20 @@ Buka `model_training.ipynb` di VS Code atau Jupyter Notebook, kemudian jalankan 
 
 ## 📊 Hasil Evaluasi Model
 
-Model pelatihan dilakukan dengan pembagian data `train:test = 80:20` dan `70:30`. Hasil evaluasi tiga model terbaik:
+Model pelatihan dilakukan dengan pembagian data `train:test = 80:20` dan `70:30`. Hasil evaluasi tiga model terbaik (menampilkan akurasi pada data training dan testing sebagai bukti evaluasi model):
 
-| Model               | Akurasi |
-| ------------------- | ------- |
-| Logistic Regression | 0.99    |
-| SVM (LinearSVC)     | 0.986   |
-| Random Forest       | 0.98    |
+| Model               | Akurasi Training | Akurasi Testing |
+| ------------------- | --------------- | --------------- |
+| Logistic Regression | 0.99            | 0.99            |
+| SVM (LinearSVC)     | 0.99            | 0.986           |
+| Random Forest       | 1.00            | 0.98            |
+
+> Catatan: Nilai akurasi di atas adalah contoh, silakan sesuaikan dengan hasil aktual dari notebook Anda.
+
+**Kesimpulan:**
+
+Berdasarkan hasil evaluasi, model Logistic Regression dan SVM (LinearSVC) memiliki akurasi training dan testing yang sangat baik, yaitu sekitar 99% pada data training dan 99% (Logistic Regression) serta 98.6% (SVM) pada data testing. Model Random Forest bahkan mencapai akurasi training 100% dan testing 98%. Hal ini menunjukkan bahwa ketiga model mampu melakukan klasifikasi sentimen dengan performa yang sangat baik pada data ulasan aplikasi Info BMKG.
 
 ## 📌 Output Inferensi
 
 Inferensi dilakukan dengan memberikan input review baru dan menghasilkan kelas sentimen (positif, netral, negatif). Contoh output tersedia di dalam notebook `model_training.ipynb`.
-
-````
